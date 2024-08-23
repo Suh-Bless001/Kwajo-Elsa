@@ -1,0 +1,58 @@
+body{
+    font-family: arial,sans-serif;
+    background-color: #fff;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+.container{
+    width: 700px;
+    margin: auto;
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 50px;
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+table{
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 20px;
+    border: 1px solid#333;
+    text-align: center;
+}
+
+.avaible-slots{
+    margin-bottom: 30px;
+}
+.slot{
+    padding: 10px 50px;
+    border: 1px solid#333;
+    margin: 5px 0px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 15px;
+
+}
+.slot .selected{
+    background-color: #fff;
+}
+
+h1{
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fst{
+    display: flex;
+    justify-content: space-between;
+}

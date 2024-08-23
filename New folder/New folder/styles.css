@@ -1,0 +1,91 @@
+
+.col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.col-12{
+  background-color: lightpink;
+  height:70vh;
+  text-align: center;
+  background-position: center;
+}
+.short{
+  width: 100px;
+  margin-right:100%;
+  
+}
+
+nav{
+  text-align: end;
+  margin-top: -5%;
+  margin-right: 5%;
+  text-align: end;
+}
+
+h{
+  
+  text-transform: uppercase;
+font-size: medium;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bolder;
+text-align: end;
+
+
+}
+.pascal{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 40px;
+  color: #fff;
+}
+.pascal-content{
+  max-width: 20px 40px;
+}
+.pascal-content h1{
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin: 10px 0;
+}
+
+.btn{
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: 15px;
+  text-align: center;
+}
+
+h4{
+color: #fff;
+text-align: left;
+
+}
+
+
+p{
+  color: #fff;
+  text-align: left;
+}
+
+.buttons{
+  text-align: left;
+  margin-top: 10px;
+}

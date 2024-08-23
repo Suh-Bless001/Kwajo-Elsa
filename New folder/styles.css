@@ -1,0 +1,112 @@
+
+.col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.col-12{
+  background-color: lightpink;
+  height:70vh;
+  text-align: center;
+
+
+}
+.short{
+  width: 100px;
+  
+  
+}
+
+.head{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+nav{
+  display: flex;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+a{
+  margin-right: 10px;
+}
+
+h1{
+  
+  text-transform: uppercase;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bolder;
+
+
+
+}
+.pascal{
+  align-items: center;
+  padding: 50px 40px;
+  color: white;
+}
+
+
+button{
+  padding: 15px 30px;
+  margin-left: 10px;
+  border-radius: 10px;
+  font-size: 15px;
+  text-align: center;
+  background-color: lightblue;
+  color: white;
+}
+
+
+h4{
+color: #2600ff;
+text-align: left;
+
+}
+
+
+p{
+  color: #2600ff;
+  text-align: left;
+}
+
+.buttons{
+  text-align: left;
+  margin-top: 10px;
+}
+.pascal-image img{
+  position: relative;
+  margin-left: 70%;
+  margin-top: -5%;
+}
+
+.mini{
+  width: 10%;
+  border-radius: 70%;
+}
+
+.done{
+  margin-top: -150px;
+}
+
